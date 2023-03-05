@@ -1,0 +1,30 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+        
+        
+                                                            7
+                                                          /   \
+                                                         5     8
+                                                        / \     \
+                                                       1   6     9
+                                                      / \
+                                                     0   3 
+                                                        / \ 
+                                                       2   4
+                                                            
+                                                            
+ Root=7'dir. Roota göre;
+ 
+ 5 elemanına baktım 7'den küçük olduğu için 5'i 7'nin soluna yazdım.
+ 1 elemanına baktım önce 7'den küçük olduğu için soldan devam ettim. 5'e geldim. 1 5'ten de küçük olduğu için 1'i 5'in soluna ekledim.
+ 8 elemanına baktım 7'den büyük olduğu için 8'i 7'nin sağına ekledim.
+ 3 elemanına baktım 7'den küçük olduğu için soldan devam edip 1'e geldim. 3 1'den büyük olduğu için 3'ü 1'in sağına yazdım.
+ 6 elemanına baktım 7'den küçük olduğu için soldan devam edip 5'e geldim. 6 5'ten büyük olduğu için 6'yı 5'in sağına yazdım.
+ 0 elemanına baktım 7'den küçük olduğu için soldan devam ettim. 1 elemanına geldim ve 0'ı 1 ile kıyasladım küçük olduğu için 1'in soluna yazdım.
+ 9 elemanına baktım 7'den büyük olduğu için sağdan devam ettim. 8 elemanına geldim. 9 8'den büyük olduğu için 8'in sağına 9'u yazdım.
+ 4 elemanına baktım 7'den küçük olduğu için soldan devam ettim. 5'ten küçük olduğu için soldan devam ettim 1 elemanına geldim. 4 1'den büyük olduğu için sağdan devam ederek 3' geldim. 4 3'den de büyük olduğu için 4'ü 3'ün sağına yazdım.
+ 2 elemanına baktım 7'den küçük olduğu için soldan devam ettim. 5'ten küçük olduğu için soldan devam ettim. 1 elemanına geldim. 2 1'den büyük olduğu için sağdan devam ederek 3' geldim. 2 3'ten küçük olduğu için 2'yi 3'ün soluna yerleştirdim.
+ 
+                                                          
+                                                         
+                          
